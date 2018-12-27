@@ -4,31 +4,31 @@ const router = express.Router();
 router.get('/',(req,res)=>{
   //res.sendfile(path.join(__dirname, 'views/index.html') );
 
-  res.render('index',{title:'MSP2018'});
+  res.render('index',{title:'MSPK2018'});
 });
 
 router.get('/contact',(req,res)=>{
   //res.sendfile(path.join(__dirname, 'views/index.html') );
 
-  res.render('contact',{title:'MSP2018'});
+  res.render('contact',{title:'MSPK2018'});
 });
 
 router.get('/about',(req,res)=>{
   //res.sendfile(path.join(__dirname, 'views/index.html') );
 
-  res.render('about',{title:'MSP2018'});
+  res.render('about',{title:'MSPK2018'});
 });
 
 router.get('/ubicacion',(req,res)=>{
   //res.sendfile(path.join(__dirname, 'views/index.html') );
 
-  res.render('ubicacion',{title:'MSP2018'});
+  res.render('ubicacion',{title:'MSPK2018'});
 });
 
 router.get('/testimonios',(req,res)=>{
   //res.sendfile(path.join(__dirname, 'views/index.html') );
 
-  res.render('testimonios',{title:'MSP2018'});
+  res.render('testimonios',{title:'MSPK2018'});
 });
 
   module.exports = router;
