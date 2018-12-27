@@ -1,0 +1,200 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'now' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData now
+8 silly fetchNamedPackageData now
+9 silly mapToRegistry name now
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/now
+13 verbose request uri https://registry.npmjs.org/now
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 8:10:12 PM
+16 verbose request id 018d6819dda13a86
+17 verbose etag W/"a2f77edfd77584560a102e1d62a3e869"
+18 verbose lastModified Wed, 19 Dec 2018 16:49:05 GMT
+19 http request GET https://registry.npmjs.org/now
+20 http 304 https://registry.npmjs.org/now
+21 verbose headers { date: 'Thu, 27 Dec 2018 00:40:13 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=db0cc3bbf5bcf6efcab05399797e718661545871213; expires=Fri, 27-Dec-19 00:40:13 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'cf-ray': '48f7bc0b0a642e75-MIA',
+21 verbose headers   etag: '"a2f77edfd77584560a102e1d62a3e869"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Wed, 19 Dec 2018 16:49:05 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   'x-amz-meta-rev': '707-b3182e15f0525e81281cfbdb7efb724f',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 27 Dec 2018 00:40:13 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=db0cc3bbf5bcf6efcab05399797e718661545871213; expires=Fri, 27-Dec-19 00:40:13 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'cf-ray': '48f7bc0b0a642e75-MIA',
+22 silly get     etag: '"a2f77edfd77584560a102e1d62a3e869"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Wed, 19 Dec 2018 16:49:05 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     'x-amz-meta-rev': '707-b3182e15f0525e81281cfbdb7efb724f',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/now from cache
+24 verbose get saving now to /root/.npm/registry.npmjs.org/now/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule now@12.1.14 checking installable status
+38 silly cache add args [ 'now', null ]
+39 verbose cache add spec now
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'now',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'now',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed now@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for now
+43 info addNameTag [ 'now', 'latest' ]
+44 silly mapToRegistry name now
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/now
+48 verbose addNameTag registry:https://registry.npmjs.org/now not in flight; fetching
+49 verbose get https://registry.npmjs.org/now not expired, no request
+50 silly addNameTag next cb for now with tag latest
+51 silly addNamed now@12.1.14
+52 verbose addNamed "12.1.14" is a plain semver version for now
+53 silly cache afterAdd now@12.1.14
+54 verbose afterAdd /root/.npm/now/12.1.14/package/package.json not in flight; writing
+55 verbose afterAdd /root/.npm/now/12.1.14/package/package.json written
+56 silly loadAllDepsIntoIdealTree Finishing
+57 silly idealTree:prePrune lib
+57 silly idealTree:prePrune └── now@12.1.14
+58 silly loadIdealTree Finishing
+59 silly currentTree lib
+60 silly idealTree lib
+60 silly idealTree └── now@12.1.14
+61 silly generateActionsToTake Starting
+62 silly install generateActionsToTake
+63 silly generateActionsToTake Finishing
+64 silly diffTrees action count 1
+65 silly diffTrees add now@12.1.14
+66 silly decomposeActions action count 8
+67 silly decomposeActions fetch now@12.1.14
+68 silly decomposeActions extract now@12.1.14
+69 silly decomposeActions test now@12.1.14
+70 silly decomposeActions preinstall now@12.1.14
+71 silly decomposeActions build now@12.1.14
+72 silly decomposeActions install now@12.1.14
+73 silly decomposeActions postinstall now@12.1.14
+74 silly decomposeActions finalize now@12.1.14
+75 silly executeActions Starting
+76 silly install executeActions
+77 silly doSerial global-install 0
+78 silly doParallel fetch 1
+79 verbose lock using /root/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+80 silly doParallel extract 1
+81 silly extract now@12.1.14
+82 verbose unbuild lib/node_modules/.staging/now-b6975e36
+83 silly gentlyRm /usr/local/lib/node_modules/.staging/now-b6975e36 is being purged from base /usr/local
+84 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/now-b6975e36
+85 verbose tar unpack /root/.npm/now/12.1.14/package.tgz
+86 verbose tar unpacking to /usr/local/lib/node_modules/.staging/now-b6975e36
+87 silly gentlyRm /usr/local/lib/node_modules/.staging/now-b6975e36 is being purged
+88 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/now-b6975e36
+89 silly gunzTarPerm modes [ '755', '644' ]
+90 silly gunzTarPerm extractEntry package.json
+91 silly gunzTarPerm extractEntry LICENSE
+92 silly gunzTarPerm extractEntry README.md
+93 silly gunzTarPerm extractEntry download/dist/index.js
+94 silly gunzTarPerm extractEntry download/dist/index.js.map
+95 silly gunzTarPerm extractEntry download/dist/now
+96 silly gunzTarPerm extractEntry download/install.js
+97 silly gentlyRm /usr/local/lib/node_modules/.staging/now-b6975e36/node_modules is being purged
+98 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/now-b6975e36/node_modules
+99 silly doParallel preinstall 1
+100 silly preinstall now@12.1.14 /usr/local/lib/node_modules/.staging/now-b6975e36
+101 info lifecycle now@12.1.14~preinstall: now@12.1.14
+102 silly lifecycle now@12.1.14~preinstall: no script for preinstall, continuing
+103 silly doReverseSerial remove 0
+104 silly doSerial move 0
+105 silly doSerial finalize 1
+106 silly finalize /usr/local/lib/node_modules/now
+107 silly doSerial build 1
+108 silly build now@12.1.14
+109 info linkStuff now@12.1.14
+110 silly linkStuff now@12.1.14 has /usr/local/lib/node_modules as its parent node_modules
+111 silly linkStuff now@12.1.14 is part of a global install
+112 silly linkStuff now@12.1.14 is installed into a global node_modules
+113 silly linkStuff now@12.1.14 is installed into the top-level global node_modules
+114 verbose linkBins now@12.1.14
+115 verbose link bins [ { now: 'download/dist/now' }, '/usr/local/bin', true ]
+116 verbose linkMans now@12.1.14
+117 silly doSerial global-link 0
+118 silly doParallel update-linked 0
+119 silly doSerial install 1
+120 silly install now@12.1.14 /usr/local/lib/node_modules/.staging/now-b6975e36
+121 info lifecycle now@12.1.14~install: now@12.1.14
+122 silly lifecycle now@12.1.14~install: no script for install, continuing
+123 silly doSerial postinstall 1
+124 silly postinstall now@12.1.14 /usr/local/lib/node_modules/.staging/now-b6975e36
+125 info lifecycle now@12.1.14~postinstall: now@12.1.14
+126 verbose lifecycle now@12.1.14~postinstall: unsafe-perm in lifecycle false
+127 verbose lifecycle now@12.1.14~postinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/now/node_modules/.bin:/usr/local/lib/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/mssql-tools/bin
+128 verbose lifecycle now@12.1.14~postinstall: CWD: /usr/local/lib/node_modules/now
+129 silly lifecycle now@12.1.14~postinstall: Args: [ '-c', 'node download/install.js' ]
+130 silly lifecycle now@12.1.14~postinstall: Returned: code: 1  signal: null
+131 info lifecycle now@12.1.14~postinstall: Failed to exec postinstall script
+132 verbose unlock done using /root/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+133 silly rollbackFailedOptional Starting
+134 silly rollbackFailedOptional Finishing
+135 silly runTopLevelLifecycles Starting
+136 silly runTopLevelLifecycles Finishing
+137 silly install printInstalled
+138 verbose stack Error: now@12.1.14 postinstall: `node download/install.js`
+138 verbose stack Exit status 1
+138 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+138 verbose stack     at emitTwo (events.js:87:13)
+138 verbose stack     at EventEmitter.emit (events.js:172:7)
+138 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+138 verbose stack     at emitTwo (events.js:87:13)
+138 verbose stack     at ChildProcess.emit (events.js:172:7)
+138 verbose stack     at maybeClose (internal/child_process.js:821:16)
+138 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+139 verbose pkgid now@12.1.14
+140 verbose cwd /home/kleber/Documents/Trabajos/MSP
+141 error Linux 4.4.0-141-generic
+142 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "now"
+143 error node v4.2.6
+144 error npm  v3.5.2
+145 error code ELIFECYCLE
+146 error now@12.1.14 postinstall: `node download/install.js`
+146 error Exit status 1
+147 error Failed at the now@12.1.14 postinstall script 'node download/install.js'.
+147 error Make sure you have the latest version of node.js and npm installed.
+147 error If you do, this is most likely a problem with the now package,
+147 error not with npm itself.
+147 error Tell the author that this fails on your system:
+147 error     node download/install.js
+147 error You can get information on how to open an issue for this project with:
+147 error     npm bugs now
+147 error Or if that isn't available, you can get their info via:
+147 error     npm owner ls now
+147 error There is likely additional logging output above.
+148 verbose exit [ 1, true ]
